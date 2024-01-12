@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0rem;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;  /* Retira os pontos ao lado da lista */
+}
+
+.container-one {
+    display: flex;
+    color: black;
+    padding: 0.625rem;
+  }
+
+.icon-menu {
+    margin-right: 25%;
+    cursor: pointer;
+  }
+
+.icon-menu img {
+    width: 8.125rem;
+    height: 8.125rem;
+  }
+
+.lista-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    flex-wrap: wrap;
+
+  }
+  
+.lista-menu li {
+  display: flex;  
+  margin: 0 1.25rem;
+
+  }
+  
+.lista-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-size: 1.5625rem;
+    outline: 300px;
+  }
+  
+.lista-menu a:hover {
+    color: #ff9900;
+    font-size: 30px;
+    transition: 0.3s;
+  }
+
+.text {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+.container-nav {
+    margin-top: 60px;
+  }
+
+audio {
+    display: none;
+  }
+
+  
