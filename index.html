@@ -1,55 +1,55 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html>  <!-- Estrutura Inicial de um código HTML5-->
+<html lang="pt-br"> <!-- Definição da linguagem padrão do site-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>CRASH BANDICOOT</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CRASH BANDICOOT</title>  <!-- Titulo do Site -->
+    <link rel="stylesheet" href="style.css">    
     <link rel="stylesheet" href="style-nav.css">
-    <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon"> <!--iCONE -->
 <body>
 <main>
     <div class="container-video">
-        <video autoplay muted loop class="video-background">
-            <source src="video/background.mp4" type="video/mp4">
+        <video autoplay muted loop class="video-background"> <!-- Propiedades da tag vídeo-->
+            <source src="video/background.mp4" type="video/mp4">    <!-- Conteudo da tag vídeo-->
         </video>
     </div>
     <header>
         <nav class="container-one">
             <div class="icon-menu">
                 <ul>
-                    <li><img src="imagens/akuaku.png" alt="AkuAku" width="110px" class="icon" id="akuakuIcon"></li>
+                    <li><img src="imagens/akuaku.png" alt="AkuAku" width="110px" class="icon" id="akuakuIcon"></li> <!-- Mascara Akuku -->
                 </ul>
             </div>
             <div class="lista-menu">
                 <li>
-                    <a href="#" id="link" class="song-nav"><ul>HOME</ul></a>
-                    <a href="viloes.html" class="song-nav"><ul>VILÕES</ul></a>
-                    <a href="race.html" class="song-nav"><ul>TEAM RACING</ul></a>
-                    <a href="family.html" class="song-nav"><ul>FAMÍLIA BANDICOOT</ul></a>
+                    <a href="#" id="link" class="song-nav"><ul>HOME</ul></a>  <!-- OPÇÕES MENU -->
+                    <a href="viloes.html" class="song-nav"><ul>VILÕES</ul></a>  <!-- OPÇÕES MENU -->
+                    <a href="race.html" class="song-nav"><ul>TEAM RACING</ul></a>   <!-- OPÇÕES MENU -->
+                    <a href="family.html" class="song-nav"><ul>FAMÍLIA BANDICOOT</ul></a>   <!-- OPÇÕES MENU -->
                 </li>
         </nav>
     </header>
         <article>
             <div class="container-two">
                <div class="sub-container">
-               <h1 class="text"><strong>CRASH  BANDICOOT</strong></h1>
+               <h1 class="text"><strong>CRASH  BANDICOOT</strong></h1> 
                     <p class="text">Crash Bandicoot é um popular jogo de plataforma desenvolvido pela Naughty Dog, lançado em 1996. Os jogadores controlam Crash, um bandicoot que luta contra o vilão Dr. Neo Cortex e seus capangas, atravessando níveis desafiadores, coletando itens e derrotando inimigos em uma aventura divertida.</p>
                </div>
                <div>
-                    <img src="gifs/crash.gif" alt="Crash Bandicoot" width="700px">
+                    <img src="gifs/crash.gif" alt="Crash Bandicoot" width="700px"> <!-- Gif do Crash Bandicoot -->
                </div>
             </div>
         </article>
         <div>
-            <audio controls autoplay loop id="backgroundAudio">
-                <source src="song/themacrash.mp3" type="audio/mpeg">
+            <audio controls autoplay loop id="backgroundAudio">   <!-- Tag Audio  -->
+                <source src="song/themacrash.mp3" type="audio/mpeg">    <!-- Arquivo audio que vai tocar como Background -->
+            </audio> 
+            <audio id="akuakuAudio">                               <!-- Tag Audio -->
+                <source src="song/akuaku.mp3" type="audio/mpeg"> <!-- Conteudo durante o clique no Akuku -->
             </audio>
-            <audio id="akuakuAudio">
-                <source src="song/akuaku.mp3" type="audio/mpeg">
-            </audio>
-            <audio>
-                <source src="song/menu.mp3" type="audio/mpeg">
+            <audio>                                                 <!-- Tag Audio -->
+                <source src="song/menu.mp3" type="audio/mpeg">      <!-- Conteudo ao o mouse em cima do menu -->
             </audio>
         </div>
         <footer>
@@ -62,9 +62,3 @@
 </body>
 </html>
 
-<!--
-2° Colocar interatividade com o usuário efeitos de som
-3° Colocar thema de fundo no site / Site principal já foi*
-4° Atribuir um CSS só para os menus
-5° Arrumar Desing de algumas letras
--->
